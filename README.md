@@ -11,7 +11,7 @@
 Использовать Go в docker:
 
 ```bash
-./build.sh
+./build_with_docker.sh
 ```
 
 Должно получится как-то так:
