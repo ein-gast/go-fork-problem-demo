@@ -1,6 +1,6 @@
 Демонстрация интересного ограничения.
 
-**Собираем:**
+**Собираем**
 
 Если Go установлен локально:
 
@@ -8,7 +8,7 @@
 ./build.sh
 ```
 
-Использовать Go в docker:
+Если хотим использовать Go в docker:
 
 ```bash
 ./build_with_docker.sh
@@ -33,7 +33,7 @@ app.arm64.1.bin: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), d
 app.arm64.2.bin: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /system/bin/linker64, stripped
 ```
 
-Любопытный нюан. Похоже, что сейчас нельзя собрать польностью статический бинарник https://github.com/golang/go/issues/59942
+Любопытный нюанс. Похоже, что сейчас нельзя собрать польностью статический бинарник https://github.com/golang/go/issues/59942
 
 Исходники:
 
@@ -80,10 +80,10 @@ exit_group(0)                           = ?
 +++ exited with 0 +++
 ```
 
-**Запускаю в termux на android-телефоне:**
+**Запускаем в termux на android-телефоне:**
 
 Доступ к телефону через ssh внутри termux. termux поставлен из Google Play.
-Телефон Redmi Note 10 Pro
+Телефон Redmi Note 10 Pro.
 
 ```
 $ ./scp.sh
